@@ -45,6 +45,7 @@ public class Game
         outside.setExit("east", theater);
         outside.setExit("south", lab);
         outside.setExit("west", pub);
+        outside.addItems("apple","an apple", 50);
 
         theater.setExit("west", outside);
 
@@ -113,6 +114,9 @@ public class Game
         else if (commandWord.equals("quit")) {
             wantToQuit = quit(command);
         }
+        else if (commandWord.equals("look")) {
+            look();
+        }
         // else command not recognised.
         return wantToQuit;
     }
@@ -171,5 +175,10 @@ public class Game
         else {
             return true;  // signal that we want to quit
         }
+    }
+
+    private void look(){
+        System.out.println(currentRoom.getLongDescription());
+        currentRoom.showItems();
     }
 }
