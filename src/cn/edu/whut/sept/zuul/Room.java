@@ -5,21 +5,24 @@ import java.util.HashMap;
 import java.util.Set;
 public class Room
 {
+    private int id;
+    private static int cnt=0;
+    private int type;
     private String description;
-    private HashMap<String, Room> exits;
-
-    private final ArrayList<item> items;
-
-    public Room(String description)
+    private HashMap<String, Integer> exits;
+    private final ArrayList<Item> Items;
+    public Room(String description,int type)
     {
         this.description = description;
-        exits = new HashMap<>();
-        items = new ArrayList<item>();
+        this.exits = new HashMap<>();
+        this.Items = new ArrayList<>();
+        this.type=type;
+        this.id=cnt++;
     }
 
-    public void setExit(String direction, Room neighbor)
+    public void setExit(String direction, int id)
     {
-        exits.put(direction, neighbor);
+        exits.put(direction, id);
     }
 
     public String getShortDescription()
@@ -28,12 +31,12 @@ public class Room
     }
 
     public void addItems(String name,String description,int weight){
-        this.items.add(new item(name,description,weight));
+        this.Items.add(new Item(name,description,weight));
     }
 
     public void showItems(){
         System.out.println("Here are the items in current room:");
-        for(item i:items){
+        for(Item i: Items){
             System.out.println(i.getName()+","+i.getDescription()+","+i.getWeight());
         }
     }
@@ -52,9 +55,16 @@ public class Room
         return returnString;
     }
 
-    public Room getExit(String direction)
+    public int getExit(String direction)
     {
         return exits.get(direction);
+    }
+
+    public int getId(){
+        return this.id;
+    }
+    public int getType(){
+        return this.type;
     }
 }
 

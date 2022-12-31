@@ -13,18 +13,24 @@
  */
 package cn.edu.whut.sept.zuul;
 
+import java.util.*;
+
 public class Game
 {
     private Parser parser;
     private Room currentRoom;
-
+    private Deque<Room> path;
+    private HashMap<Integer,Room> idRoomMap;
+    private int roomNum=0;
     /**
      * 创建游戏并初始化内部数据和解析器.
      */
     public Game()
     {
-        createRooms();
         parser = new Parser();
+        path = new ArrayDeque<>();
+        idRoomMap = new HashMap<>();
+        createRooms();
     }
 
     /**
@@ -32,33 +38,51 @@ public class Game
      */
     private void createRooms()
     {
-        Room outside, theater, pub, lab, office;
+
+        Room outside, theater, pub, lab, office, magic;
 
         // create the rooms
-        outside = new Room("outside the main entrance of the university");
-        theater = new Room("in a lecture theater");
-        pub = new Room("in the campus pub");
-        lab = new Room("in a computing lab");
-        office = new Room("in the computing admin office");
+        outside = new Room("outside the main entrance of the university",0);
+        theater = new Room("in a lecture theater",0);
+        pub = new Room("in the campus pub",0);
+        lab = new Room("in a computing lab",0);
+        office = new Room("in the computing admin office",0);
+        magic = new Room("in a magic room!You will be transport to a random room!", 1);
 
+        idRoomMap.put(outside.getId(), outside);
+        idRoomMap.put(theater.getId(), theater);
+        idRoomMap.put(pub.getId(), pub);
+        idRoomMap.put(lab.getId(), lab);
+        idRoomMap.put(outside.getId(), office);
+        idRoomMap.put(magic.getId(), magic);
+        roomNum=6;
         // initialise room exits
-        outside.setExit("east", theater);
-        outside.setExit("south", lab);
-        outside.setExit("west", pub);
+        outside.setExit("east", theater.getId());
+        outside.setExit("south", lab.getId());
+        outside.setExit("west", pub.getId());
+        outside.setExit("north",magic.getId());
         outside.addItems("apple","an apple", 50);
 
-        theater.setExit("west", outside);
+        theater.setExit("west", outside.getId());
 
-        pub.setExit("east", outside);
+        pub.setExit("east", outside.getId());
 
-        lab.setExit("north", outside);
-        lab.setExit("east", office);
+        lab.setExit("north", outside.getId());
+        lab.setExit("east", office.getId());
 
-        office.setExit("west", lab);
+        office.setExit("west", lab.getId());
 
+        magic.setExit("south",outside.getId());
         currentRoom = outside;  // start game outside
+        path.addLast(currentRoom);
     }
 
+    /**
+     * todo:文件存地图/读取地图
+     */
+    private void addRoom(String description){
+
+    }
     /**
      *  游戏主控循环，直到用户输入退出命令后结束整个程序.
      */
@@ -117,6 +141,9 @@ public class Game
         else if (commandWord.equals("look")) {
             look();
         }
+        else if (commandWord.equals("back")){
+            back();
+        }
         // else command not recognised.
         return wantToQuit;
     }
@@ -151,15 +178,23 @@ public class Game
         String direction = command.getSecondWord();
 
         // Try to leave current room.
-        Room nextRoom = currentRoom.getExit(direction);
+        int nextId = currentRoom.getExit(direction);
+        Room nextRoom = idRoomMap.get(nextId);
 
         if (nextRoom == null) {
-            System.out.println("There is no door!");
+            System.out.println("There is no way!");
         }
         else {
+            if (nextRoom.getType() == 1) {
+                System.out.println("You are "+nextRoom.getShortDescription());
+                Random rdm=new Random();
+                nextRoom = idRoomMap.get(rdm.nextInt(this.roomNum));
+
+            }
             currentRoom = nextRoom;
             System.out.println(currentRoom.getLongDescription());
         }
+        path.addLast(currentRoom);
     }
 
     /**
@@ -180,5 +215,15 @@ public class Game
     private void look(){
         System.out.println(currentRoom.getLongDescription());
         currentRoom.showItems();
+    }
+
+    private void back(){
+        if(path.size()==1){
+            System.out.println("You are already at the start!");
+            return;
+        }
+        path.removeLast();
+        currentRoom= path.getLast();
+        System.out.println(currentRoom.getLongDescription());
     }
 }

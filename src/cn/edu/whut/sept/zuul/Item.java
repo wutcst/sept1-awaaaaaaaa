@@ -1,6 +1,6 @@
 package cn.edu.whut.sept.zuul;
 
-public class item {
+public class Item {
     private String name;
 
     private String description;
@@ -19,7 +19,7 @@ public class item {
         return weight;
     }
 
-    public item(String name, String description, int weight){
+    public Item(String name, String description, int weight){
         this.name=name;
         this.description=description;
         this.weight=weight;
