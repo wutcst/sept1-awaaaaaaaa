@@ -14,6 +14,7 @@
 package cn.edu.whut.sept.zuul;
 
 import java.util.*;
+import java.util.function.Function;
 
 public class Game
 {
@@ -22,6 +23,8 @@ public class Game
     private Deque<Room> path;
     private HashMap<Integer,Room> idRoomMap;
     private int roomNum=0;
+    private Player player;
+    private HashMap<String, Function<Command, Boolean>> commandList;
     /**
      * 创建游戏并初始化内部数据和解析器.
      */
@@ -30,12 +33,25 @@ public class Game
         parser = new Parser();
         path = new ArrayDeque<>();
         idRoomMap = new HashMap<>();
+        commandList = new HashMap<>();
+        setCommandList();
         createRooms();
     }
 
     /**
      * 创建所有房间对象并连接其出口用以构建迷宫.
      */
+    private void setCommandList(){
+        commandList.put("help",this::printHelp);
+        commandList.put("go",this::goRoom);
+        commandList.put("quit",this::quit);
+        commandList.put("back",this::back);
+        commandList.put("look",this::look);
+        commandList.put("take",this::take);
+        commandList.put("drop",this::drop);
+        commandList.put("eat-cookie",this::eatCookie);
+        commandList.put("items",this::showItems);
+    }
     private void createRooms()
     {
 
@@ -48,12 +64,11 @@ public class Game
         lab = new Room("in a computing lab",0);
         office = new Room("in the computing admin office",0);
         magic = new Room("in a magic room!You will be transport to a random room!", 1);
-
         idRoomMap.put(outside.getId(), outside);
         idRoomMap.put(theater.getId(), theater);
         idRoomMap.put(pub.getId(), pub);
         idRoomMap.put(lab.getId(), lab);
-        idRoomMap.put(outside.getId(), office);
+        idRoomMap.put(office.getId(), office);
         idRoomMap.put(magic.getId(), magic);
         roomNum=6;
         // initialise room exits
@@ -61,7 +76,7 @@ public class Game
         outside.setExit("south", lab.getId());
         outside.setExit("west", pub.getId());
         outside.setExit("north",magic.getId());
-        outside.addItems("apple","an apple", 50);
+        outside.addItem("apple","an apple", 50);
 
         theater.setExit("west", outside.getId());
 
@@ -83,20 +98,37 @@ public class Game
     private void addRoom(String description){
 
     }
+    public void login(){
+        System.out.println("Hello!Please entre your userName for loading!");
+        System.out.print("> ");
+        String input = new Scanner(System.in).nextLine();
+        /**
+         * todo:数据库存档
+         */
+        if(input==null){
+            System.out.println("Welcome back!");
+        }
+        else {
+            System.out.println("A new player has been created!");
+            String userName = input;
+            this.player = new Player(userName, 0, 2000);
+            this.currentRoom=idRoomMap.get(0);
+        }
+        play();
+    }
     /**
      *  游戏主控循环，直到用户输入退出命令后结束整个程序.
      */
-    public void play()
-    {
+    public void play() {
         printWelcome();
 
         // Enter the main command loop.  Here we repeatedly read commands and
         // execute them until the game is over.
 
-        boolean finished = false;
-        while (! finished) {
+        boolean run = true;
+        while (run) {
             Command command = parser.getCommand();
-            finished = processCommand(command);
+            run = processCommand(command);
         }
         System.out.println("Thank you for playing.  Good bye.");
     }
@@ -117,35 +149,15 @@ public class Game
     /**
      * 执行用户输入的游戏指令.
      * @param command 待处理的游戏指令，由解析器从用户输入内容生成.
-     * @return 如果执行的是游戏结束指令，则返回true，否则返回false.
+     * @return 如果执行的是游戏结束指令，则返回false，否则返回true.
      */
     private boolean processCommand(Command command)
     {
-        boolean wantToQuit = false;
-
         if(command.isUnknown()) {
             System.out.println("I don't know what you mean...");
-            return false;
+            return true;
         }
-
-        String commandWord = command.getCommandWord();
-        if (commandWord.equals("help")) {
-            printHelp();
-        }
-        else if (commandWord.equals("go")) {
-            goRoom(command);
-        }
-        else if (commandWord.equals("quit")) {
-            wantToQuit = quit(command);
-        }
-        else if (commandWord.equals("look")) {
-            look();
-        }
-        else if (commandWord.equals("back")){
-            back();
-        }
-        // else command not recognised.
-        return wantToQuit;
+        return commandList.get(command.getCommandWord()).apply(command);
     }
 
     // implementations of user commands:
@@ -154,31 +166,36 @@ public class Game
      * 执行help指令，在终端打印游戏帮助信息.
      * 此处会输出游戏中用户可以输入的命令列表
      */
-    private void printHelp()
+    private boolean printHelp(Command command)
     {
         System.out.println("You are lost. You are alone. You wander");
         System.out.println("around at the university.");
         System.out.println();
         System.out.println("Your command words are:");
         parser.showCommands();
+        return true;
     }
 
     /**
      * 执行go指令，向房间的指定方向出口移动，如果该出口连接了另一个房间，则会进入该房间，
      * 否则打印输出错误提示信息.
      */
-    private void goRoom(Command command)
+    private boolean goRoom(Command command)
     {
         if(!command.hasSecondWord()) {
             // if there is no second word, we don't know where to go...
             System.out.println("Go where?");
-            return;
+            return true;
         }
 
         String direction = command.getSecondWord();
 
         // Try to leave current room.
         int nextId = currentRoom.getExit(direction);
+        if(nextId==-1){
+            System.out.println("Go where?");
+            return true;
+        }
         Room nextRoom = idRoomMap.get(nextId);
 
         if (nextRoom == null) {
@@ -195,6 +212,7 @@ public class Game
             System.out.println(currentRoom.getLongDescription());
         }
         path.addLast(currentRoom);
+        return true;
     }
 
     /**
@@ -205,25 +223,96 @@ public class Game
     {
         if(command.hasSecondWord()) {
             System.out.println("Quit what?");
-            return false;
+            return true;
         }
         else {
-            return true;  // signal that we want to quit
+            return false;  // signal that we want to quit
         }
     }
 
-    private void look(){
+    private boolean look(Command command){
         System.out.println(currentRoom.getLongDescription());
         currentRoom.showItems();
+        return true;
     }
 
-    private void back(){
+    private boolean back(Command command){
         if(path.size()==1){
             System.out.println("You are already at the start!");
-            return;
+            return true;
         }
         path.removeLast();
         currentRoom= path.getLast();
         System.out.println(currentRoom.getLongDescription());
+        return true;
+    }
+    private boolean take(Command command){
+        if(!command.hasSecondWord()) {
+            System.out.println("Take what?");
+            return true;
+        }
+        String thing=command.getSecondWord();
+        int id;
+        try{
+            id=Integer.parseInt(thing);
+        }catch (Exception e){
+            System.out.println("Take what?");
+            return true;
+        }
+        Item item=currentRoom.delItem(id);
+        if(item!=null){
+            player.carryItem(item);
+            System.out.println("You have taken the "+item.getName());
+        }else{
+            System.out.println("No such thing with this id in current room!");
+        }
+        return true;
+    }
+    private boolean drop(Command command){
+        if(!command.hasSecondWord()) {
+            System.out.println("Drop what?");
+            return true;
+        }
+        String things=command.getSecondWord();
+        if(things.equals("all")){
+            Item item;
+            do {
+                item=player.dropItem(0);
+                if(item!=null){
+                    currentRoom.addItem(item);
+                }
+            }while(item!=null);
+            System.out.println("You have dropped everything in your bag!");
+            return true;
+        }
+        String thing=command.getSecondWord();
+        int id;
+        try{
+            id=Integer.parseInt(thing);
+        }catch (Exception e){
+            System.out.println("Drop what?");
+            return true;
+        }
+        Item item=player.dropItem(id);
+        if(item!=null){
+            currentRoom.addItem(item);
+            System.out.println("You have drop the "+item.getName());
+        }
+        else{
+            System.out.println("No such thing with this id in your bag!");
+        }
+        return true;
+    }
+    private boolean eatCookie(Command command){
+        boolean exist = player.eatCookie();
+        if(!exist){
+            System.out.println("There is no magic cookie in your bag!");
+        }
+        return true;
+    }
+    private boolean showItems(Command command){
+        currentRoom.showItems();
+        player.showBag();
+        return true;
     }
 }

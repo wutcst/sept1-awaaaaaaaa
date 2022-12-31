@@ -10,12 +10,12 @@ public class Room
     private int type;
     private String description;
     private HashMap<String, Integer> exits;
-    private final ArrayList<Item> Items;
+    private final ArrayList<Item> items;
     public Room(String description,int type)
     {
         this.description = description;
         this.exits = new HashMap<>();
-        this.Items = new ArrayList<>();
+        this.items = new ArrayList<>();
         this.type=type;
         this.id=cnt++;
     }
@@ -30,14 +30,31 @@ public class Room
         return description;
     }
 
-    public void addItems(String name,String description,int weight){
-        this.Items.add(new Item(name,description,weight));
+    public void addItem(Item item){
+        this.items.add(item);
+    }
+    public void addItem(String name,String description,int weight){
+        this.items.add(new Item(name,description,weight));
+    }
+    public Item delItem(int id){
+        if(this.items.size()==0||id<0||id>=this.items.size()){
+            return null;
+        }
+        Item item=items.get(id);
+        items.remove(id);
+        return item;
     }
 
     public void showItems(){
+        if(items.size()==0){
+            System.out.println("There is nothing in current room!");
+            return;
+        }
         System.out.println("Here are the items in current room:");
-        for(Item i: Items){
-            System.out.println(i.getName()+","+i.getDescription()+","+i.getWeight());
+        int i=0;
+        for(Item item: items){
+            System.out.println(i+"."+item.getName()+","+item.getDescription()+","+item.getWeight());
+            i++;
         }
     }
 
@@ -57,7 +74,13 @@ public class Room
 
     public int getExit(String direction)
     {
-        return exits.get(direction);
+        int exit;
+        try{
+            exit=exits.get(direction);
+        }catch (Exception e){
+            exit = -1;
+        }
+        return exit;
     }
 
     public int getId(){
