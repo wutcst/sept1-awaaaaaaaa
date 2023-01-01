@@ -1,3 +1,7 @@
+/**
+ * 该类用于获取并解析用户输入
+ */
+
 package cn.edu.whut.sept.zuul;
 
 import java.util.Scanner;
@@ -7,12 +11,18 @@ public class Parser
     private CommandWords commands;
     private Scanner reader;
 
-    public Parser()
-    {
+    /**
+     * 创建一个解析器
+     */
+    public Parser(){
         commands = new CommandWords();
         reader = new Scanner(System.in);
     }
 
+    /**
+     * 读入用户从控制台输入的命令，并将命令分为两部分：命令和参数（其中参数可能不存在）
+     * @return 一个解析后的命令
+     */
     public Command getCommand()
     {
         String inputLine;
@@ -39,8 +49,10 @@ public class Parser
         }
     }
 
-    public void showCommands()
-    {
+    /**
+     * 展示玩家输入的完整命令
+     */
+    public void showCommands(){
         commands.showAll();
     }
 }

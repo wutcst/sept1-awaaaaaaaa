@@ -8,8 +8,8 @@
  * Game类的实例将创建并初始化所有其他类:它创建所有房间，并将它们连接成迷宫；它创建解析器
  * 接收用户输入，并将用户输入转换成命令后开始运行游戏。
  *
- * @author  Michael Kölling and David J. Barnes
- * @version 1.0
+ * @author  Michael Kölling and David J. Barnes and awaaaaaaaa
+ * @version 1.0.1
  */
 package cn.edu.whut.sept.zuul;
 
@@ -18,13 +18,13 @@ import java.util.function.Function;
 
 public class Game
 {
-    private Parser parser;
+    private final Parser parser;
     private Room currentRoom;
-    private Deque<Room> path;
-    private HashMap<Integer,Room> idRoomMap;
+    private final Deque<Room> path;
+    private final HashMap<Integer,Room> idRoomMap;
     private int roomNum=0;
     private Player player;
-    private HashMap<String, Function<Command, Boolean>> commandList;
+    private final HashMap<String, Function<Command, Boolean>> commandList;
     /**
      * 创建游戏并初始化内部数据和解析器.
      */
@@ -39,7 +39,7 @@ public class Game
     }
 
     /**
-     * 创建所有房间对象并连接其出口用以构建迷宫.
+     * 设置游戏的可用命令
      */
     private void setCommandList(){
         commandList.put("help",this::printHelp);
@@ -52,6 +52,10 @@ public class Game
         commandList.put("eat-cookie",this::eatCookie);
         commandList.put("items",this::showItems);
     }
+
+    /**
+     * 创建所有房间对象并连接其出口用以构建迷宫.
+     */
     private void createRooms()
     {
 
@@ -98,6 +102,10 @@ public class Game
     private void addRoom(String description){
 
     }
+
+    /**
+     * 用户登陆，获取存档
+     */
     public void login(){
         System.out.println("Hello!Please entre your userName for loading!");
         System.out.print("> ");
@@ -217,7 +225,8 @@ public class Game
 
     /**
      * 执行Quit指令，用户退出游戏。如果用户在命令中输入了其他参数，则进一步询问用户是否真的退出.
-     * @return 如果游戏需要退出则返回true，否则返回false.
+     * @param command 用户命令
+     * @return 如果游戏继续执行则返回true，否则返回false.
      */
     private boolean quit(Command command)
     {
@@ -230,12 +239,24 @@ public class Game
         }
     }
 
+    /**
+     * 执行look指令，查看当前房间的信息以及房间内的物品信息。
+     * @param command 用户命令
+     * @return 如果游戏继续执行则返回true，否则返回false.
+     */
     private boolean look(Command command){
         System.out.println(currentRoom.getLongDescription());
         currentRoom.showItems();
         return true;
     }
 
+    /**
+     * 执行back指令，回退到上一个经过房间。
+     * 如果已经回退到游戏开始的状态，则提示已经回到起点。
+     * 特别的，如果上一个经过的房间是一个传送房间(magic room)，则返回到进入传送房间前所在的房间。
+     * @param command 用户命令
+     * @return 如果游戏继续执行则返回true，否则返回false.
+     */
     private boolean back(Command command){
         if(path.size()==1){
             System.out.println("You are already at the start!");
@@ -246,6 +267,12 @@ public class Game
         System.out.println(currentRoom.getLongDescription());
         return true;
     }
+
+    /**
+     * 执行take指令，用户需要输入一个数字参数，表示拾取房价内指定编号的物品。如果参数有误，则会报错。
+     * @param command 用户命令
+     * @return 如果游戏继续执行则返回true，否则返回false.
+     */
     private boolean take(Command command){
         if(!command.hasSecondWord()) {
             System.out.println("Take what?");
@@ -261,13 +288,23 @@ public class Game
         }
         Item item=currentRoom.delItem(id);
         if(item!=null){
-            player.carryItem(item);
-            System.out.println("You have taken the "+item.getName());
+            if(player.carryItem(item)){
+                System.out.println("You have taken the "+item.getName());
+            }else{
+                System.out.println("You are unable to carry it!");
+                currentRoom.addItem(item);
+            }
         }else{
             System.out.println("No such thing with this id in current room!");
         }
         return true;
     }
+
+    /**
+     * 执行drop指令，用户需要输入一个数字参数，表示将背包内指定编号的物品丢弃到当前房间内。如果参数有误，则会报错。
+     * @param command 用户命令
+     * @return 如果游戏继续运行则返回true，否则返回false.
+     */
     private boolean drop(Command command){
         if(!command.hasSecondWord()) {
             System.out.println("Drop what?");
@@ -303,6 +340,12 @@ public class Game
         }
         return true;
     }
+
+    /**
+     * 执行eat-cookie命令，检查背包内是否有物品“魔法饼干”（magic cookie），如果有，则将该物品从背包内移除，并且增加玩家的承重能力(capacity)。
+     * @param command 用户命令
+     * @return 如果游戏继续运行则返回true，否则返回false.
+     */
     private boolean eatCookie(Command command){
         boolean exist = player.eatCookie();
         if(!exist){
@@ -310,6 +353,12 @@ public class Game
         }
         return true;
     }
+
+    /**
+     * 执行items指令，打印当前房间内所有物品，以及玩家随身携带的所有物品及玩家的负重。
+     * @param command 用户命令
+     * @return 如果游戏继续运行则返回true，否则返回false.
+     */
     private boolean showItems(Command command){
         currentRoom.showItems();
         player.showBag();
