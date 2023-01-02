@@ -68,11 +68,12 @@ public class Player {
         int i=0;
         for(Item item:this.bag){
             System.out.println(i+"."+item.getName()+"(weight:"+item.getWeight()+")\n"+item.getDescription());
+            i++;
         }
     }
 
     /**
-     * 检查玩家背包内的物品，若有魔法曲奇(magic cookie)，则将其从背包删除，同时增加玩家的负重能力
+     * 检查玩家背包内的物品，若有魔法曲奇(magic cookie)，则将其从背包删除，同时增加玩家的负重能力（固定值1000点）
      * @return 若玩家背包内有魔法曲奇，则返回true，否则返回false
      */
     public boolean eatCookie(){
