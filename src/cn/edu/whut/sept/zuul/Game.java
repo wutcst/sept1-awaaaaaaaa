@@ -9,14 +9,14 @@
  * 接收用户输入，并将用户输入转换成命令后开始运行游戏。
  *
  * @author  Michael Kölling and David J. Barnes and awaaaaaaaa
- * @version 1.1.1
+ * @version 1.2.0
  */
 package cn.edu.whut.sept.zuul;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.ResultSet;
 import java.util.*;
 import java.util.function.Function;
 
@@ -156,23 +156,38 @@ public class Game
 
     /**
      * 用户登陆，获取存档
+     * 获取用户的输入，在数据库中获取该玩家的存档，若没有该玩家则创建一个新的玩家
+     * 之后开始游戏。
      */
     public void login(){
         System.out.println("Hello!Please entre your userName for loading!");
         System.out.print("> ");
         String input = new Scanner(System.in).nextLine();
-        /**
-         * todo:数据库存档
-         */
-        if(input==null){
-            System.out.println("Welcome back!");
-        }
-        else {
-            System.out.println("A new player has been created!");
-            String userName = input;
-            this.player = new Player(userName, 0, 1000);
-            this.currentRoom=idRoomMap.get(0);
+        DBUtil db = new DBUtil();
+        try{
+            db.getConnection();
+            String sqlTest = "SELECT * FROM `user` WHERE userName='"+input+"'";
+            ResultSet rs = db.executeQuery(sqlTest,null);
+            if(rs.next()){
+                System.out.println("Welcome back!");
+                this.player = new Player(rs.getString("userName"),rs.getInt("nowRoomId"),rs.getInt("capacity"));
+            }else{
+                String save_user_sql = "call `save_user`(?,?,?,@res);";
+                Object[] param = new Object[] { input, 0, 1000};
+                if (db.executeUpdate(save_user_sql, param) > 0) {
+                    System.out.println("A new player has been created!");
+                    this.player = new Player(input, 0, 1000);
+                }
+                else{
+                    System.out.println("Unexpected error!");
+                }
+            }
+            this.currentRoom=idRoomMap.get(this.player.getNowRoomId());
             path.add(this.currentRoom);
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            db.closeAll();
         }
         play();
     }
@@ -277,6 +292,7 @@ public class Game
 
     /**
      * 执行Quit指令，用户退出游戏。如果用户在命令中输入了其他参数，则进一步询问用户是否真的退出.
+     * 在退出前，将用户存档更新到数据库。
      * @param command 用户命令
      * @return 如果游戏继续执行则返回true，否则返回false.
      */
@@ -287,6 +303,23 @@ public class Game
             return true;
         }
         else {
+            DBUtil db = new DBUtil();
+            try{
+                db.getConnection();
+                String save_progress_sql = "call `update_user`(?,?,?);";
+                Object[] param = new Object[] { player.getUserName(),this.currentRoom,player.getCapacity()};
+                if (db.executeUpdate(save_progress_sql, param) > 0) {
+                        System.out.println("Your game progress has been saved!");
+                }else{
+                    System.out.println("Unexpected error!");
+                }
+                this.currentRoom=idRoomMap.get(this.player.getNowRoomId());
+                path.add(this.currentRoom);
+            }catch (Exception e){
+                e.printStackTrace();
+            }finally {
+                db.closeAll();
+            }
             return false;  // signal that we want to quit
         }
     }

@@ -89,4 +89,15 @@ public class Player {
         return false;
     }
 
+    public String getUserName(){
+        return this.userName;
+    }
+
+    public int getNowRoomId(){
+        return this.nowRoomId;
+    }
+
+    public int getCapacity(){
+        return this.capacity;
+    }
 }

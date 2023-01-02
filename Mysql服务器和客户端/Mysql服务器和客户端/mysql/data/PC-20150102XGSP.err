@@ -1,0 +1,2080 @@
+170904 13:56:16 [Note] Plugin 'FEDERATED' is disabled.
+170904 13:56:16 InnoDB: The InnoDB memory heap is disabled
+170904 13:56:16 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170904 13:56:16 InnoDB: Compressed tables use zlib 1.2.3
+170904 13:56:16 InnoDB: Initializing buffer pool, size = 128.0M
+170904 13:56:16 InnoDB: Completed initialization of buffer pool
+170904 13:56:16 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170904 13:56:16  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170904 13:56:17  InnoDB: Waiting for the background threads to start
+170904 13:56:18 InnoDB: 1.1.8 started; log sequence number 48976806
+170904 13:56:18 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+170904 13:56:18 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+170904 13:56:18 [Note] Server socket created on IP: '0.0.0.0'.
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+170904 13:56:18 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+170904 13:56:18 [Note] Event Scheduler: Loaded 0 events
+170904 13:56:18 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170906 10:10:05 [Note] Plugin 'FEDERATED' is disabled.
+170906 10:10:05 InnoDB: The InnoDB memory heap is disabled
+170906 10:10:05 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170906 10:10:05 InnoDB: Compressed tables use zlib 1.2.3
+170906 10:10:05 InnoDB: Initializing buffer pool, size = 128.0M
+170906 10:10:05 InnoDB: Completed initialization of buffer pool
+170906 10:10:05 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170906 10:10:05  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170906 10:10:06  InnoDB: Waiting for the background threads to start
+170906 10:10:07 InnoDB: 1.1.8 started; log sequence number 48976806
+170906 10:10:07 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+170906 10:10:07 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+170906 10:10:07 [Note] Server socket created on IP: '0.0.0.0'.
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+170906 10:10:07 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+170906 10:10:07 [Note] Event Scheduler: Loaded 0 events
+170906 10:10:07 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170906 10:59:21 [Note] Plugin 'FEDERATED' is disabled.
+170906 10:59:21 InnoDB: The InnoDB memory heap is disabled
+170906 10:59:21 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170906 10:59:21 InnoDB: Compressed tables use zlib 1.2.3
+170906 10:59:21 InnoDB: Initializing buffer pool, size = 128.0M
+170906 10:59:22 InnoDB: Completed initialization of buffer pool
+170906 10:59:22 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170906 10:59:22  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170906 10:59:22  InnoDB: Waiting for the background threads to start
+170906 10:59:23 InnoDB: 1.1.8 started; log sequence number 48978853
+170906 10:59:23 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+170906 10:59:23 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+170906 10:59:23 [Note] Server socket created on IP: '0.0.0.0'.
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+170906 10:59:23 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+170906 10:59:23 [Note] Event Scheduler: Loaded 0 events
+170906 10:59:23 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170906 13:37:28 [Note] Plugin 'FEDERATED' is disabled.
+170906 13:37:28 InnoDB: The InnoDB memory heap is disabled
+170906 13:37:28 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170906 13:37:28 InnoDB: Compressed tables use zlib 1.2.3
+170906 13:37:28 InnoDB: Initializing buffer pool, size = 128.0M
+170906 13:37:28 InnoDB: Completed initialization of buffer pool
+170906 13:37:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:37:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:37:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:37:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:38:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:38:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:38:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:38:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:38:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:38:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:39:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:39:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:39:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:39:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:39:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:39:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:40:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:40:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:40:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:40:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:40:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:40:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:41:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:41:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:41:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:41:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:41:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:41:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:42:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:42:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:42:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:42:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:42:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:42:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:43:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:43:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:43:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:43:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:43:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:43:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:44:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:44:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:44:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:44:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:44:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:44:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:45:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:45:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:45:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:45:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:45:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:45:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:46:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:46:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:46:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:46:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:46:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:46:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:47:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:47:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:47:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:47:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:47:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:47:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:48:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:48:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:48:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:48:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:48:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:48:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:49:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:49:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:49:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:49:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:49:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:49:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:50:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:50:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:50:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:50:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:50:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:50:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:51:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:51:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:51:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:51:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:51:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:51:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:52:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:52:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:52:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:52:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:52:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:52:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:53:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:53:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:53:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:53:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:53:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:53:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:54:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:54:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:54:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:54:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:54:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:54:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:55:08  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:55:18  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:55:28  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:55:38  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:55:48  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:55:58  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:56:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:56:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:56:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:56:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:56:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:56:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:57:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:57:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:57:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:57:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:57:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:57:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:58:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:58:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:58:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:58:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:58:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:58:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:59:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:59:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:59:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:59:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:59:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 13:59:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:00:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:00:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:00:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:00:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:00:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:00:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:01:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:01:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:01:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:01:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:01:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:01:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:02:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:02:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:02:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:02:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:02:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:02:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:03:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:03:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:03:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:03:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:03:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:03:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:04:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:04:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:04:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:04:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:04:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:04:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:05:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:05:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:05:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:05:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:05:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:05:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:06:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:06:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:06:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:06:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:06:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:06:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:07:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:07:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:07:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:07:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:07:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:07:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:08:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:08:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:08:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:08:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:08:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:08:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:09:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:09:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:09:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:09:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:09:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:09:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:10:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:10:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:10:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:10:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:10:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:10:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:11:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:11:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:11:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:11:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:11:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:11:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:12:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:12:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:12:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:12:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:12:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:12:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:13:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:13:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:13:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:13:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:13:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:13:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:14:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:14:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:14:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:14:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:14:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:14:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:15:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:15:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:15:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:15:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:15:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:15:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:16:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:16:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:16:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:16:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:16:49  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:16:59  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:17:09  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:17:19  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:17:29  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:17:39  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:17:50  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:18:00  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:18:10  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:18:20  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:18:30  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:18:40  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:18:50  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:19:00  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:19:10  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:19:20  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:19:30  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:19:40  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:19:50  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:20:00  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:20:10  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:20:20  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:20:30  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:20:40  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:20:50  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:21:00  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:21:10  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:21:20  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170906 14:21:30  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+170918 16:32:14 [Note] Plugin 'FEDERATED' is disabled.
+170918 16:32:14 InnoDB: The InnoDB memory heap is disabled
+170918 16:32:14 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170918 16:32:14 InnoDB: Compressed tables use zlib 1.2.3
+170918 16:32:14 InnoDB: Initializing buffer pool, size = 128.0M
+170918 16:32:14 InnoDB: Completed initialization of buffer pool
+170918 16:32:14 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170918 16:32:14  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170918 16:32:15  InnoDB: Waiting for the background threads to start
+170918 16:32:16 InnoDB: 1.1.8 started; log sequence number 48980425
+170918 16:32:17 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+170918 16:32:17 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+170918 16:32:17 [Note] Server socket created on IP: '0.0.0.0'.
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+170918 16:32:17 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+170918 16:32:17 [Note] Event Scheduler: Loaded 0 events
+170918 16:32:17 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170919  9:04:08 [Note] Plugin 'FEDERATED' is disabled.
+170919  9:04:08 InnoDB: The InnoDB memory heap is disabled
+170919  9:04:08 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170919  9:04:08 InnoDB: Compressed tables use zlib 1.2.3
+170919  9:04:08 InnoDB: Initializing buffer pool, size = 128.0M
+170919  9:04:08 InnoDB: Completed initialization of buffer pool
+170919  9:04:08 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170919  9:04:08  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170919  9:04:09  InnoDB: Waiting for the background threads to start
+170919  9:04:10 InnoDB: 1.1.8 started; log sequence number 49002201
+170919  9:04:10 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+170919  9:04:10 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+170919  9:04:10 [Note] Server socket created on IP: '0.0.0.0'.
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+170919  9:04:10 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+170919  9:04:10 [Note] Event Scheduler: Loaded 0 events
+170919  9:04:10 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170920  9:55:35 [Note] Plugin 'FEDERATED' is disabled.
+170920  9:55:35 InnoDB: The InnoDB memory heap is disabled
+170920  9:55:35 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170920  9:55:35 InnoDB: Compressed tables use zlib 1.2.3
+170920  9:55:35 InnoDB: Initializing buffer pool, size = 128.0M
+170920  9:55:35 InnoDB: Completed initialization of buffer pool
+170920  9:55:35 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170920  9:55:35  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170920  9:55:36  InnoDB: Waiting for the background threads to start
+170920  9:55:37 InnoDB: 1.1.8 started; log sequence number 49002211
+170920  9:55:37 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+170920  9:55:37 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+170920  9:55:37 [Note] Server socket created on IP: '0.0.0.0'.
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+170920  9:55:37 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+170920  9:55:37 [Note] Event Scheduler: Loaded 0 events
+170920  9:55:37 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180223 15:19:31 [Note] Plugin 'FEDERATED' is disabled.
+180223 15:19:31 InnoDB: The InnoDB memory heap is disabled
+180223 15:19:31 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180223 15:19:31 InnoDB: Compressed tables use zlib 1.2.3
+180223 15:19:31 InnoDB: Initializing buffer pool, size = 128.0M
+180223 15:19:31 InnoDB: Completed initialization of buffer pool
+180223 15:19:31 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180223 15:19:31  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180223 15:19:31  InnoDB: Waiting for the background threads to start
+180223 15:19:32 InnoDB: 1.1.8 started; log sequence number 49004707
+180223 15:19:33 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180223 15:19:33 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180223 15:19:33 [Note] Server socket created on IP: '0.0.0.0'.
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180223 15:19:33 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180223 15:19:33 [Note] Event Scheduler: Loaded 0 events
+180223 15:19:33 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180412 10:00:59 [Note] Plugin 'FEDERATED' is disabled.
+180412 10:00:59 InnoDB: The InnoDB memory heap is disabled
+180412 10:00:59 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180412 10:00:59 InnoDB: Compressed tables use zlib 1.2.3
+180412 10:00:59 InnoDB: Initializing buffer pool, size = 128.0M
+180412 10:00:59 InnoDB: Completed initialization of buffer pool
+180412 10:00:59 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180412 10:00:59  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180412 10:00:59  InnoDB: Waiting for the background threads to start
+180412 10:01:00 InnoDB: 1.1.8 started; log sequence number 49007476
+180412 10:01:00 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180412 10:01:00 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180412 10:01:00 [Note] Server socket created on IP: '0.0.0.0'.
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180412 10:01:01 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180412 10:01:01 [Note] Event Scheduler: Loaded 0 events
+180412 10:01:01 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180417 13:13:33 [Note] Plugin 'FEDERATED' is disabled.
+180417 13:13:33 InnoDB: The InnoDB memory heap is disabled
+180417 13:13:33 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180417 13:13:33 InnoDB: Compressed tables use zlib 1.2.3
+180417 13:13:33 InnoDB: Initializing buffer pool, size = 128.0M
+180417 13:13:34 InnoDB: Completed initialization of buffer pool
+180417 13:13:34 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180417 13:13:34  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180417 13:13:34  InnoDB: Waiting for the background threads to start
+180417 13:13:35 InnoDB: 1.1.8 started; log sequence number 49007830
+180417 13:13:35 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180417 13:13:35 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180417 13:13:35 [Note] Server socket created on IP: '0.0.0.0'.
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180417 13:13:36 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180417 13:13:36 [Note] Event Scheduler: Loaded 0 events
+180417 13:13:36 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180418  9:18:56 [Note] Plugin 'FEDERATED' is disabled.
+180418  9:18:56 InnoDB: The InnoDB memory heap is disabled
+180418  9:18:56 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180418  9:18:56 InnoDB: Compressed tables use zlib 1.2.3
+180418  9:18:56 InnoDB: Initializing buffer pool, size = 128.0M
+180418  9:18:56 InnoDB: Completed initialization of buffer pool
+180418  9:18:56 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180418  9:18:56  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180418  9:18:57  InnoDB: Waiting for the background threads to start
+180418  9:18:58 InnoDB: 1.1.8 started; log sequence number 49021289
+180418  9:18:58 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180418  9:18:58 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180418  9:18:58 [Note] Server socket created on IP: '0.0.0.0'.
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180418  9:18:58 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180418  9:18:58 [Note] Event Scheduler: Loaded 0 events
+180418  9:18:58 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180428 13:56:23 [Note] Plugin 'FEDERATED' is disabled.
+180428 13:56:24 InnoDB: The InnoDB memory heap is disabled
+180428 13:56:24 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180428 13:56:24 InnoDB: Compressed tables use zlib 1.2.3
+180428 13:56:24 InnoDB: Initializing buffer pool, size = 128.0M
+180428 13:56:24 InnoDB: Completed initialization of buffer pool
+180428 13:56:24 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180428 13:56:24  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180428 13:56:24  InnoDB: Waiting for the background threads to start
+180428 13:56:25 InnoDB: 1.1.8 started; log sequence number 49027809
+180428 13:56:25 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180428 13:56:25 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180428 13:56:25 [Note] Server socket created on IP: '0.0.0.0'.
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180428 13:56:26 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180428 13:56:26 [Note] Event Scheduler: Loaded 0 events
+180428 13:56:26 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180621 16:20:01 [Note] Plugin 'FEDERATED' is disabled.
+180621 16:20:01 InnoDB: The InnoDB memory heap is disabled
+180621 16:20:01 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180621 16:20:01 InnoDB: Compressed tables use zlib 1.2.3
+180621 16:20:01 InnoDB: Initializing buffer pool, size = 128.0M
+180621 16:20:01 InnoDB: Completed initialization of buffer pool
+180621 16:20:01 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180621 16:20:01  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180621 16:20:02  InnoDB: Waiting for the background threads to start
+180621 16:20:03 InnoDB: 1.1.8 started; log sequence number 49034368
+180621 16:20:03 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180621 16:20:03 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180621 16:20:03 [Note] Server socket created on IP: '0.0.0.0'.
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180621 16:20:03 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180621 16:20:03 [Note] Event Scheduler: Loaded 0 events
+180621 16:20:03 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180828  9:20:12 [Note] Plugin 'FEDERATED' is disabled.
+180828  9:20:12 InnoDB: The InnoDB memory heap is disabled
+180828  9:20:12 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180828  9:20:12 InnoDB: Compressed tables use zlib 1.2.3
+180828  9:20:12 InnoDB: Initializing buffer pool, size = 128.0M
+180828  9:20:12 InnoDB: Completed initialization of buffer pool
+180828  9:20:13 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180828  9:20:13  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180828  9:20:13  InnoDB: Waiting for the background threads to start
+180828  9:20:14 InnoDB: 1.1.8 started; log sequence number 49036349
+180828  9:20:14 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180828  9:20:14 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180828  9:20:14 [Note] Server socket created on IP: '0.0.0.0'.
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180828  9:20:15 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180828  9:20:15 [Note] Event Scheduler: Loaded 0 events
+180828  9:20:15 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180829 15:27:58 [Note] Plugin 'FEDERATED' is disabled.
+180829 15:27:58 InnoDB: The InnoDB memory heap is disabled
+180829 15:27:58 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180829 15:27:58 InnoDB: Compressed tables use zlib 1.2.3
+180829 15:27:58 InnoDB: Initializing buffer pool, size = 128.0M
+180829 15:27:58 InnoDB: Completed initialization of buffer pool
+180829 15:27:58 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180829 15:27:58  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180829 15:27:59  InnoDB: Waiting for the background threads to start
+180829 15:28:00 InnoDB: 1.1.8 started; log sequence number 49051690
+180829 15:28:00 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180829 15:28:00 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180829 15:28:00 [Note] Server socket created on IP: '0.0.0.0'.
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180829 15:28:00 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180829 15:28:00 [Note] Event Scheduler: Loaded 0 events
+180829 15:28:00 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180918 10:25:53 [Note] Plugin 'FEDERATED' is disabled.
+180918 10:25:53 InnoDB: The InnoDB memory heap is disabled
+180918 10:25:53 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180918 10:25:53 InnoDB: Compressed tables use zlib 1.2.3
+180918 10:25:53 InnoDB: Initializing buffer pool, size = 128.0M
+180918 10:25:53 InnoDB: Completed initialization of buffer pool
+180918 10:25:53 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180918 10:25:53  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180918 10:25:54  InnoDB: Waiting for the background threads to start
+180918 10:25:55 InnoDB: 1.1.8 started; log sequence number 49053531
+180918 10:25:55 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180918 10:25:55 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180918 10:25:55 [Note] Server socket created on IP: '0.0.0.0'.
+180918 10:25:55 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180918 10:25:55 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180918 10:25:55 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180918 10:25:56 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180918 10:25:56 [Note] Event Scheduler: Loaded 0 events
+180918 10:25:56 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180920 10:36:15 [Note] Plugin 'FEDERATED' is disabled.
+180920 10:36:15 InnoDB: The InnoDB memory heap is disabled
+180920 10:36:15 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180920 10:36:15 InnoDB: Compressed tables use zlib 1.2.3
+180920 10:36:15 InnoDB: Initializing buffer pool, size = 128.0M
+180920 10:36:15 InnoDB: Completed initialization of buffer pool
+180920 10:36:15 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180920 10:36:16  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180920 10:36:16  InnoDB: Waiting for the background threads to start
+180920 10:36:17 InnoDB: 1.1.8 started; log sequence number 49059357
+180920 10:36:17 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180920 10:36:17 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180920 10:36:17 [Note] Server socket created on IP: '0.0.0.0'.
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180920 10:36:18 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180920 10:36:18 [Note] Event Scheduler: Loaded 0 events
+180920 10:36:18 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180930 10:29:09 [Note] Plugin 'FEDERATED' is disabled.
+180930 10:29:09 InnoDB: The InnoDB memory heap is disabled
+180930 10:29:09 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+180930 10:29:09 InnoDB: Compressed tables use zlib 1.2.3
+180930 10:29:09 InnoDB: Initializing buffer pool, size = 128.0M
+180930 10:29:09 InnoDB: Completed initialization of buffer pool
+180930 10:29:09 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+180930 10:29:09  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+180930 10:29:10  InnoDB: Waiting for the background threads to start
+180930 10:29:11 InnoDB: 1.1.8 started; log sequence number 49075459
+180930 10:29:11 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180930 10:29:11 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180930 10:29:11 [Note] Server socket created on IP: '0.0.0.0'.
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+180930 10:29:11 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+180930 10:29:12 [Note] Event Scheduler: Loaded 0 events
+180930 10:29:12 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+181008  9:24:06 [Note] Plugin 'FEDERATED' is disabled.
+181008  9:24:06 InnoDB: The InnoDB memory heap is disabled
+181008  9:24:06 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+181008  9:24:06 InnoDB: Compressed tables use zlib 1.2.3
+181008  9:24:06 InnoDB: Initializing buffer pool, size = 128.0M
+181008  9:24:06 InnoDB: Completed initialization of buffer pool
+181008  9:24:06 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+181008  9:24:06  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+181008  9:24:06  InnoDB: Waiting for the background threads to start
+181008  9:24:07 InnoDB: 1.1.8 started; log sequence number 49079100
+181008  9:24:07 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+181008  9:24:07 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+181008  9:24:08 [Note] Server socket created on IP: '0.0.0.0'.
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+181008  9:24:08 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+181008  9:24:08 [Note] Event Scheduler: Loaded 0 events
+181008  9:24:08 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+181009  9:46:01 [Note] Plugin 'FEDERATED' is disabled.
+181009  9:46:01 InnoDB: The InnoDB memory heap is disabled
+181009  9:46:01 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+181009  9:46:01 InnoDB: Compressed tables use zlib 1.2.3
+181009  9:46:02 InnoDB: Initializing buffer pool, size = 128.0M
+181009  9:46:02 InnoDB: Completed initialization of buffer pool
+181009  9:46:02 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+181009  9:46:02  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+181009  9:46:02  InnoDB: Waiting for the background threads to start
+181009  9:46:03 InnoDB: 1.1.8 started; log sequence number 49080100
+181009  9:46:03 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+181009  9:46:03 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+181009  9:46:03 [Note] Server socket created on IP: '0.0.0.0'.
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+181009  9:46:03 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+181009  9:46:03 [Note] Event Scheduler: Loaded 0 events
+181009  9:46:03 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+181010  9:25:41 [Note] Plugin 'FEDERATED' is disabled.
+181010  9:25:41 InnoDB: The InnoDB memory heap is disabled
+181010  9:25:41 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+181010  9:25:41 InnoDB: Compressed tables use zlib 1.2.3
+181010  9:25:41 InnoDB: Initializing buffer pool, size = 128.0M
+181010  9:25:41 InnoDB: Completed initialization of buffer pool
+181010  9:25:41 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+181010  9:25:41  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+181010  9:25:42  InnoDB: Waiting for the background threads to start
+181010  9:25:43 InnoDB: 1.1.8 started; log sequence number 49080110
+181010  9:25:43 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+181010  9:25:43 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+181010  9:25:43 [Note] Server socket created on IP: '0.0.0.0'.
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+181010  9:25:43 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+181010  9:25:43 [Note] Event Scheduler: Loaded 0 events
+181010  9:25:43 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+181219 15:02:02 [Note] Plugin 'FEDERATED' is disabled.
+181219 15:02:02 InnoDB: The InnoDB memory heap is disabled
+181219 15:02:02 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+181219 15:02:02 InnoDB: Compressed tables use zlib 1.2.3
+181219 15:02:02 InnoDB: Initializing buffer pool, size = 128.0M
+181219 15:02:02 InnoDB: Completed initialization of buffer pool
+181219 15:02:02 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+181219 15:02:02  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+181219 15:02:03  InnoDB: Waiting for the background threads to start
+181219 15:02:04 InnoDB: 1.1.8 started; log sequence number 49081870
+181219 15:02:04 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+181219 15:02:04 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+181219 15:02:04 [Note] Server socket created on IP: '0.0.0.0'.
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+181219 15:02:04 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+181219 15:02:04 [Note] Event Scheduler: Loaded 0 events
+181219 15:02:04 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+190328 14:59:51 [Note] Plugin 'FEDERATED' is disabled.
+190328 14:59:51 InnoDB: The InnoDB memory heap is disabled
+190328 14:59:51 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190328 14:59:51 InnoDB: Compressed tables use zlib 1.2.3
+190328 14:59:51 InnoDB: Initializing buffer pool, size = 128.0M
+190328 14:59:51 InnoDB: Completed initialization of buffer pool
+190328 14:59:51 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+190328 14:59:51  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+190328 14:59:52  InnoDB: Waiting for the background threads to start
+190328 14:59:53 InnoDB: 1.1.8 started; log sequence number 49081870
+190328 14:59:53 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+190328 14:59:53 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+190328 14:59:53 [Note] Server socket created on IP: '0.0.0.0'.
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+190328 14:59:53 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+190328 14:59:53 [Note] Event Scheduler: Loaded 0 events
+190328 14:59:53 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+190329  9:38:10 [Note] Plugin 'FEDERATED' is disabled.
+190329  9:38:10 InnoDB: The InnoDB memory heap is disabled
+190329  9:38:10 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190329  9:38:10 InnoDB: Compressed tables use zlib 1.2.3
+190329  9:38:10 InnoDB: Initializing buffer pool, size = 128.0M
+190329  9:38:10 InnoDB: Completed initialization of buffer pool
+190329  9:38:10 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+190329  9:38:10  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+190329  9:38:10  InnoDB: Waiting for the background threads to start
+190329  9:38:11 InnoDB: 1.1.8 started; log sequence number 49099947
+190329  9:38:12 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+190329  9:38:12 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+190329  9:38:12 [Note] Server socket created on IP: '0.0.0.0'.
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+190329  9:38:12 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+190329  9:38:12 [Note] Event Scheduler: Loaded 0 events
+190329  9:38:12 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+190416  9:07:46 [Note] Plugin 'FEDERATED' is disabled.
+190416  9:07:46 InnoDB: The InnoDB memory heap is disabled
+190416  9:07:46 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190416  9:07:46 InnoDB: Compressed tables use zlib 1.2.3
+190416  9:07:46 InnoDB: Initializing buffer pool, size = 128.0M
+190416  9:07:46 InnoDB: Completed initialization of buffer pool
+190416  9:07:46 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+190416  9:07:46  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+190416  9:07:51  InnoDB: Waiting for the background threads to start
+190416  9:07:52 InnoDB: 1.1.8 started; log sequence number 49101148
+190416  9:07:53 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+190416  9:07:53 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+190416  9:07:53 [Note] Server socket created on IP: '0.0.0.0'.
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+190416  9:07:54 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+190416  9:07:54 [Note] Event Scheduler: Loaded 0 events
+190416  9:07:54 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+190708  9:56:49 [Note] Plugin 'FEDERATED' is disabled.
+190708  9:56:49 InnoDB: The InnoDB memory heap is disabled
+190708  9:56:49 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190708  9:56:49 InnoDB: Compressed tables use zlib 1.2.3
+190708  9:56:49 InnoDB: Initializing buffer pool, size = 128.0M
+190708  9:56:49 InnoDB: Completed initialization of buffer pool
+190708  9:56:49 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+190708  9:56:49  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+190708  9:56:50  InnoDB: Waiting for the background threads to start
+190708  9:56:51 InnoDB: 1.1.8 started; log sequence number 49125823
+190708  9:56:51 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+190708  9:56:51 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+190708  9:56:51 [Note] Server socket created on IP: '0.0.0.0'.
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+190708  9:56:52 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+190708  9:56:52 [Note] Event Scheduler: Loaded 0 events
+190708  9:56:52 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+190918 11:34:08 [Note] Plugin 'FEDERATED' is disabled.
+190918 11:34:08 InnoDB: The InnoDB memory heap is disabled
+190918 11:34:08 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190918 11:34:08 InnoDB: Compressed tables use zlib 1.2.3
+190918 11:34:08 InnoDB: Initializing buffer pool, size = 128.0M
+190918 11:34:08 InnoDB: Completed initialization of buffer pool
+190918 11:34:08 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+190918 11:34:08  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+190918 11:34:09  InnoDB: Waiting for the background threads to start
+190918 11:34:10 InnoDB: 1.1.8 started; log sequence number 49125833
+190918 11:34:10 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+190918 11:34:10 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+190918 11:34:10 [Note] Server socket created on IP: '0.0.0.0'.
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+190918 11:34:10 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+190918 11:34:10 [Note] Event Scheduler: Loaded 0 events
+190918 11:34:10 [Note] H:\开发工具\mysql\Mysql服务的和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
