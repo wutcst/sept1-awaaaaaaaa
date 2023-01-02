@@ -100,4 +100,8 @@ public class Player {
     public int getCapacity(){
         return this.capacity;
     }
+
+    public ArrayList<Item> getBag(){
+        return this.bag;
+    }
 }
