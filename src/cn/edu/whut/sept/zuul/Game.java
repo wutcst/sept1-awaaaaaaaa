@@ -281,7 +281,6 @@ public class Game
                 System.out.println("You are "+nextRoom.getShortDescription());
                 Random rdm=new Random();
                 nextRoom = idRoomMap.get(rdm.nextInt(this.roomNum));
-
             }
             currentRoom = nextRoom;
             System.out.println(currentRoom.getLongDescription());
