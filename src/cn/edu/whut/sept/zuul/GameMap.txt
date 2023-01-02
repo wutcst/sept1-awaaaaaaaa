@@ -1,0 +1,44 @@
+6
+outside the main entrance of the university
+0
+4
+east 1
+south 3
+west 2
+north 5
+2
+apple
+an apple
+50
+stone
+a heavy stone
+1000
+in a lecture theater
+0
+1
+west 0
+1
+magic cookie
+a magic cookie!You can enhance your capacity by eating it!
+20
+in the campus pub
+0
+1
+east 0
+0
+in a computing lab
+0
+2
+north 0
+east 4
+0
+in the computing admin office
+0
+1
+west 3
+0
+in a magic room!You will be transported to a random room!
+1
+1
+south 0
+0

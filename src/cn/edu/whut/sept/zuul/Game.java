@@ -9,10 +9,14 @@
  * 接收用户输入，并将用户输入转换成命令后开始运行游戏。
  *
  * @author  Michael Kölling and David J. Barnes and awaaaaaaaa
- * @version 1.0.1
+ * @version 1.1.1
  */
 package cn.edu.whut.sept.zuul;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 import java.util.function.Function;
 
@@ -28,14 +32,14 @@ public class Game
     /**
      * 创建游戏并初始化内部数据和解析器.
      */
-    public Game()
-    {
+    public Game() throws IOException {
         parser = new Parser();
         path = new ArrayDeque<>();
         idRoomMap = new HashMap<>();
         commandList = new HashMap<>();
         setCommandList();
-        createRooms();
+        initMap();
+        //createRooms();
     }
 
     /**
@@ -53,9 +57,8 @@ public class Game
         commandList.put("items",this::showItems);
     }
 
-    /**
-     * 创建所有房间对象并连接其出口用以构建迷宫.
-     */
+    /*
+    该方法已被升级为initMap，该方法不再使用
     private void createRooms()
     {
 
@@ -67,7 +70,7 @@ public class Game
         pub = new Room("in the campus pub",0);
         lab = new Room("in a computing lab",0);
         office = new Room("in the computing admin office",0);
-        magic = new Room("in a magic room!You will be transport to a random room!", 1);
+        magic = new Room("in a magic room!You will be transported to a random room!", 1);
         idRoomMap.put(outside.getId(), outside);
         idRoomMap.put(theater.getId(), theater);
         idRoomMap.put(pub.getId(), pub);
@@ -95,13 +98,61 @@ public class Game
         currentRoom = outside;  // start game outside
         path.addLast(currentRoom);
     }
+    */
 
     /**
-     * todo:文件存地图/读取地图
+     * 该方法是createRooms的升级版
+     * 该方法用于从文件中读取地图并加载。
+     * 文件中存放地图的格式应当为：
+     * 第一行有一个正整数roomNum表示房间的个数
+     * 之后对于每个房间
+     * 第一行有一个字符串description表示房间的介绍
+     * 第二行有一个整数roomType(1/0)表示该房间是/不是一个传送房间
+     * 下一行有一个非负整数exitNum表示该房间的出口个数
+     * 之后exitNum行每行包含一个字符串direction和一个数字exitId,中间由一个空格隔开，表示出口的房间以及出口房间的编号
+     * 下一行由一个非负整数itemNum表示该房间内的物品个数
+     * 之后每个item的信息包含在三行内
+     * 第一行一个字符串itemName表示物品名称
+     * 第二行一个字符串itemDescription表示物品介绍
+     * 第三行一个正整数weight表示物品重量
+     * 注意：文件内的地图必须严格按照如上格式存储，否则会报错。
      */
-    private void addRoom(String description){
+    public void initMap() throws IOException {
+        FileReader fileReader = new FileReader("E:\\awaaaaaaaa\\src\\cn\\edu\\whut\\sept\\zuul\\GameMap.txt");
+        BufferedReader bufferedReader = new BufferedReader(fileReader);
+        String s;
+        s=bufferedReader.readLine();
+        this.roomNum=Integer.parseInt(s);
+        for(int i=0;i<this.roomNum;i++){
+            String description=bufferedReader.readLine();
+            s=bufferedReader.readLine();
+            int roomType=Integer.parseInt(s);
+            Room newRoom=new Room(description,roomType);
+            idRoomMap.put(newRoom.getId(), newRoom);
 
+            s=bufferedReader.readLine();
+            int exitNum=Integer.parseInt(s);
+            for(int j=0;j<exitNum;j++){
+                s=bufferedReader.readLine();
+                String direction,id;
+                Scanner tokenizer = new Scanner(s);
+                direction = tokenizer.next();
+                id = tokenizer.next();
+                newRoom.setExit(direction,Integer.parseInt(id));
+            }
+
+            s=bufferedReader.readLine();
+            int itemNum=Integer.parseInt(s);
+            for(int j=0;j<itemNum;j++){
+                String itemName,itemDescription,weight;
+                itemName=bufferedReader.readLine();
+                itemDescription=bufferedReader.readLine();
+                weight=bufferedReader.readLine();
+                newRoom.addItem(itemName,itemDescription,Integer.parseInt(weight));
+            }
+        }
     }
+
 
     /**
      * 用户登陆，获取存档
@@ -119,8 +170,9 @@ public class Game
         else {
             System.out.println("A new player has been created!");
             String userName = input;
-            this.player = new Player(userName, 0, 2000);
+            this.player = new Player(userName, 0, 1000);
             this.currentRoom=idRoomMap.get(0);
+            path.add(this.currentRoom);
         }
         play();
     }
