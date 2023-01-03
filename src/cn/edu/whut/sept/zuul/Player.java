@@ -9,9 +9,9 @@ package cn.edu.whut.sept.zuul;
 import java.util.ArrayList;
 
 public class Player {
-    private String userName;
-    private int nowRoomId;
-    private ArrayList<Item> bag;
+    private final String userName;
+    private final int nowRoomId;
+    private final ArrayList<Item> bag;
     private int capacity;
     private int weight;
 

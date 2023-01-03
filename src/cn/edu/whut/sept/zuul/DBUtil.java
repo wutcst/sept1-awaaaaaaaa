@@ -15,8 +15,7 @@ public class DBUtil {
     /**
      * 得到数据库连接
      */
-    public Connection getConnection() throws ClassNotFoundException,
-            SQLException, InstantiationException, IllegalAccessException {
+    public Connection getConnection() throws SQLException{
         // 通过Config获取MySQL数据库配置信息
         String driver = Config.getValue("driver");
         String url = Config.getValue("url");
@@ -114,7 +113,7 @@ public class DBUtil {
         return num;
     }
 
-    public static void main(String[] args) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
+    public static void main(String[] args) throws SQLException{
         DBUtil db = new DBUtil();
         db.getConnection();
     }

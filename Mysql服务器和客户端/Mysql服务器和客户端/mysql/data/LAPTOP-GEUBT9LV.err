@@ -381,3 +381,42 @@ InnoDB: buffer...
 230102 15:35:13 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
 230102 15:35:13 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
 230102 15:35:13 [Note] Server socket created on IP: '0.0.0.0'.
+230103 16:30:35 [Note] Plugin 'FEDERATED' is disabled.
+230103 16:30:35 InnoDB: The InnoDB memory heap is disabled
+230103 16:30:35 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+230103 16:30:35 InnoDB: Compressed tables use zlib 1.2.3
+230103 16:30:35 InnoDB: Initializing buffer pool, size = 128.0M
+230103 16:30:35 InnoDB: Completed initialization of buffer pool
+230103 16:30:35 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+230103 16:30:35  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+230103 16:30:35  InnoDB: Waiting for the background threads to start
+230103 16:30:36 InnoDB: 1.1.8 started; log sequence number 49706419
+230103 16:30:36 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+230103 16:30:36 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+230103 16:30:36 [Note] Server socket created on IP: '0.0.0.0'.
+230103 16:30:36 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+230103 16:30:36 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+230103 16:30:36 [ERROR] Aborting
+
+230103 16:30:36  InnoDB: Starting shutdown...
+230103 16:30:37  InnoDB: Shutdown completed; log sequence number 49706419
+230103 16:30:37 [Note] E:\awaaaaaaaa\Mysql服务器和客户端\Mysql服务器和客户端\mysql\bin\mysqld.exe: Shutdown complete
+
+230103 16:30:45 [Note] Plugin 'FEDERATED' is disabled.
+230103 16:30:45 InnoDB: The InnoDB memory heap is disabled
+230103 16:30:45 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+230103 16:30:45 InnoDB: Compressed tables use zlib 1.2.3
+230103 16:30:45 InnoDB: Initializing buffer pool, size = 128.0M
+230103 16:30:45 InnoDB: Completed initialization of buffer pool
+230103 16:30:45 InnoDB: highest supported file format is Barracuda.
+230103 16:30:45  InnoDB: Waiting for the background threads to start
+230103 16:30:46 InnoDB: 1.1.8 started; log sequence number 49706419
+230103 16:30:46 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+230103 16:30:46 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+230103 16:30:46 [Note] Server socket created on IP: '0.0.0.0'.

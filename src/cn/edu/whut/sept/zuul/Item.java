@@ -5,11 +5,11 @@
 package cn.edu.whut.sept.zuul;
 
 public class Item {
-    private String name;
+    private final String name;
 
-    private String description;
+    private final String description;
 
-    private int weight;
+    private final int weight;
 
     public String getName(){
         return name;

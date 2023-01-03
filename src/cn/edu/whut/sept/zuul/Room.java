@@ -105,12 +105,12 @@ public class Room
      * @return 房间的出口信息
      */
     private String getExitString(){
-        String returnString = "Exits:";
+        StringBuilder returnString = new StringBuilder("Exits:");
         Set<String> keys = exits.keySet();
         for(String exit : keys) {
-            returnString += " " + exit;
+            returnString.append(" ").append(exit);
         }
-        return returnString;
+        return returnString.toString();
     }
 
     /**

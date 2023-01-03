@@ -6,8 +6,8 @@
 package cn.edu.whut.sept.zuul;
 
 public class Command{
-    private String commandWord;
-    private String secondWord;
+    private final String commandWord;
+    private final String secondWord;
 
     /**
      * 创建一个命令

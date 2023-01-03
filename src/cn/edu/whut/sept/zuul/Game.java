@@ -1,10 +1,8 @@
 /**
  * 该类是“World-of-Zuul”应用程序的主类。
- * 《World of Zuul》是一款简单的文本冒险游戏。用户可以在一些房间组成的迷宫中探险。
+ * 《World of Zuul》是一款简单的文本冒险游戏。用户可以在一些房间组成的迷宫中探险。   
  * 你们可以通过扩展该游戏的功能使它更有趣!.
- *
  * 如果想开始执行这个游戏，用户需要创建Game类的一个实例并调用“play”方法。
- *
  * Game类的实例将创建并初始化所有其他类:它创建所有房间，并将它们连接成迷宫；它创建解析器
  * 接收用户输入，并将用户输入转换成命令后开始运行游戏。
  *
@@ -226,8 +224,7 @@ public class Game
      * @param command 待处理的游戏指令，由解析器从用户输入内容生成.
      * @return 如果执行的是游戏结束指令，则返回false，否则返回true.
      */
-    private boolean processCommand(Command command)
-    {
+    private boolean processCommand(Command command){
         if(command.isUnknown()) {
             System.out.println("I don't know what you mean...");
             return true;
@@ -277,7 +274,7 @@ public class Game
             System.out.println("There is no way!");
         }
         else {
-            if (nextRoom.getType() == 1) {
+            while (nextRoom.getType() == 1) {
                 System.out.println("You are "+nextRoom.getShortDescription());
                 Random rdm=new Random();
                 nextRoom = idRoomMap.get(rdm.nextInt(this.roomNum));
@@ -306,7 +303,7 @@ public class Game
             try{
                 db.getConnection();
                 String save_progress_sql = "call `update_user`(?,?,?);";
-                Object[] param = new Object[] { player.getUserName(),this.currentRoom,player.getCapacity()};
+                Object[] param = new Object[] { player.getUserName(),this.currentRoom.getId(),player.getCapacity()};
                 if (db.executeUpdate(save_progress_sql, param) > 0) {
                         System.out.println("Your game progress has been saved!");
                 }else{
