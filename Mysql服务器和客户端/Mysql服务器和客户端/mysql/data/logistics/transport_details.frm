@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `logistics`.`log`.`transport_id` AS `transport_id`,`logistics`.`log`.`time` AS `time`,`logistics`.`log`.`transport_type` AS `transport_type`,`logistics`.`log`.`next_handle` AS `next_handle`,`logistics`.`log`.`next_handle_phone` AS `next_handle_phone` from `logistics`.`log`
+md5=7b8265e06b1ae5a4146ed2a6a3c2ddf3
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=127.0.0.1
+suid=2
+with_check_option=0
+timestamp=2022-12-15 07:52:26
+create-version=1
+source=select `transport_id`,`time`,`transport_type`,`next_handle`,`next_handle_phone` from `log`
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select `logistics`.`log`.`transport_id` AS `transport_id`,`logistics`.`log`.`time` AS `time`,`logistics`.`log`.`transport_type` AS `transport_type`,`logistics`.`log`.`next_handle` AS `next_handle`,`logistics`.`log`.`next_handle_phone` AS `next_handle_phone` from `logistics`.`log`

@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `test`.`transport`.`transport_id` AS `transport_id`,`test`.`transport`.`recipient` AS `recipient`,`test`.`transport`.`transport_name` AS `transport_name`,`test`.`transport`.`transport_type` AS `transport_type`,`test`.`transport`.`now_handle` AS `now_handle`,`test`.`transport`.`now_handle_phone` AS `now_handle_phone` from `test`.`transport`
+md5=c3982b31c6163002504374a75ed88d3d
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=127.0.0.1
+suid=2
+with_check_option=0
+timestamp=2022-12-20 03:34:04
+create-version=1
+source=select `transport_id`,`recipient`,`transport_name`,`transport_type`,`now_handle`,`now_handle_phone` from `transport`
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select `test`.`transport`.`transport_id` AS `transport_id`,`test`.`transport`.`recipient` AS `recipient`,`test`.`transport`.`transport_name` AS `transport_name`,`test`.`transport`.`transport_type` AS `transport_type`,`test`.`transport`.`now_handle` AS `now_handle`,`test`.`transport`.`now_handle_phone` AS `now_handle_phone` from `test`.`transport`

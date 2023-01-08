@@ -1,0 +1,60 @@
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+211125 13:52:45 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+211125 13:52:45 [Note] Event Scheduler: Loaded 0 events
+211125 13:52:45 [Note] C:\Users\huaauo\Desktop\college\java\课程开发工具\Mysql服务器和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+211202 14:24:52 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+211202 14:24:52 [Note] Event Scheduler: Loaded 0 events
+211202 14:24:52 [Note] C:\Users\huaauo\Desktop\college\java\课程开发工具\Mysql服务器和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+221210 17:19:13 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+221210 17:19:13 [Note] Event Scheduler: Loaded 0 events
+221210 17:19:13 [Note] D:\奚兆阳all\college\java\课程开发工具\Mysql服务器和客户端\Mysql服务器和客户端\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.25a'  socket: ''  port: 3306  MySQL Community Server (GPL)

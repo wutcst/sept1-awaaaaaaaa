@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `logistics`.`transport`.`transport_id` AS `transport_id`,`logistics`.`transport`.`destination` AS `destination`,`logistics`.`transport`.`recipient` AS `recipient`,`logistics`.`transport`.`recipient_phone` AS `recipient_phone`,`logistics`.`transport`.`now_handle` AS `now_handle`,`logistics`.`transport`.`now_handle_phone` AS `now_handle_phone` from `logistics`.`transport`
+md5=eeba357e0fec8c9a26d6c8bffd3386ac
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=127.0.0.1
+suid=2
+with_check_option=0
+timestamp=2022-12-18 08:23:30
+create-version=1
+source=select `transport_id`,`destination`,`recipient`,`recipient_phone`,`now_handle`,`now_handle_phone` from `transport`
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select `logistics`.`transport`.`transport_id` AS `transport_id`,`logistics`.`transport`.`destination` AS `destination`,`logistics`.`transport`.`recipient` AS `recipient`,`logistics`.`transport`.`recipient_phone` AS `recipient_phone`,`logistics`.`transport`.`now_handle` AS `now_handle`,`logistics`.`transport`.`now_handle_phone` AS `now_handle_phone` from `logistics`.`transport`
